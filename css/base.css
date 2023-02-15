@@ -14,12 +14,16 @@ html
     height: 100%;
 }
 
-body
+body, header, main, footer
 {
     width: 100%;
     font-size: medium;
 }
 
+#copyright
+{
+    font-size: 0.9rem;
+}
 
 @media (max-width: 512px)
 {
